@@ -38,7 +38,7 @@ class _NewMessageState extends State<NewMessage> {
         'text': enteredMessage,
         'createdAt': Timestamp.now(),
         'userId': user.uid,
-        'username': userData.data()!['username'],
+        'userName': userData.data()!['username'],
         'userImage': userData.data()!['image_url']
       });
     }catch(e){
